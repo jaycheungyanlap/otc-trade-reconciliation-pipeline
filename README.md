@@ -2,16 +2,13 @@
 
 
 
-!\[Python Version](https://img.shields.io/badge/Python-3.9%2B-blue)
+# Institutional OTC Derivatives Reconciliation Pipeline
 
-!\[License](https://img.shields.io/badge/License-MIT-green)
-
-!\[Domain](https://img.shields.io/badge/Domain-Middle%20Office%20%7C%20Ops%20Risk-orange)
-
-
+![Python Version](https://img.shields.io/badge/Python-3.9%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Domain](https://img.shields.io/badge/Domain-Middle%20Office%20%7C%20Ops%20Risk-orange)
 
 An automated, modular, and audit-proof trade reconciliation engine built for Institutional Middle Office and Operational Risk management. It processes internal trade bookings against external broker feeds, auto-classifies discrepancies using in-memory SQL analytics, highlights large operational risks, and outputs structured Excel reports alongside `.eml` draft alerts.
-
 
 
 \---
