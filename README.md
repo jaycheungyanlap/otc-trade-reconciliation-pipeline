@@ -103,3 +103,14 @@ An automated, modular, and audit-proof trade reconciliation engine built for Ins
 
 &#x20;        └───────────────────────┘
 
+## Project Structure
+
+```text
+├── config.py             # Centralized business rules, tolerances, and style configs
+├── engine.py             # Core SQL reconciliation logic and openpyxl styling engine
+├── notifier.py           # EML draft generator with HTML summary & attachment loader
+├── main.py               # Main entry point and audit logger
+├── internal_trades.xlsx  # Sample internal trade record dataset
+├── broker_feed.csv       # Sample external broker feed dataset
+├── .gitignore            # Git exclusion definitions
+└── README.md             # Project documentation
